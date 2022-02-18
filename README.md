@@ -11,6 +11,6 @@
 # Once the infrastucure is up and running, run the cluster_step.sh on both master and worker nodes.
 ./cluster_step.sh
 
-# Initialization of the cluster and installing network plug-in Weave.
+# Initialization of the cluster and installing network plug-in Weave only on the master node.
 ./nw_initialization.sh
 
