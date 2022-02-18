@@ -8,8 +8,8 @@
 	sudo hostnamectl set-hostname master
 	sudo hostnamectl set-hostname worker1
 	sudo hostnamectl set-hostname worker2
-# Once the infrastucure is up and running, run the cluster_step.sh on both master and worker nodes.
-./cluster_step.sh
+# Once the infrastucure is up and running, run the cluster_steup.sh on both master and worker nodes.
+./cluster_steup.sh
 
 # Initialization of the cluster and installing network plug-in Weave only on the master node.
 ./nw_initialization.sh
