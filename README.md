@@ -3,7 +3,7 @@
 	Build the VPC with multimple public and private subnets.
 	Launch 3 ec2 instances one master node and two worker nodes.
 	Create two different SG's for master and worker nodes and open inbound ports as per the documantation of the kubernetes.
-# Setuo the hostname for the ec2 instances
+# Setup the hostname for the ec2 instances
 sudo hostnamectl set-hostname master
 sudo hostnamectl set-hostname worker1
 sudo hostnamectl set-hostname worker2
