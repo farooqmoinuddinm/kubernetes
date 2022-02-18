@@ -1,4 +1,4 @@
-# Three node kubernetes cluster setp on AWS cloud.
+# Three node kubernetes cluster setup on AWS cloud.
 # Create infrastucure on AWS cloud.
 	Build the VPC with multimple public and private subnets.
 	Launch 3 ec2 instances one master node and two worker nodes.
